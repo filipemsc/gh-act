@@ -14,4 +14,4 @@ jobs:
 
       - name: Run R script
         run: |
-          Rscript -e "download.file('ftp://ftp.datasus.gov.br/cnes/CEP_BRASIL.ZIP', '//storage6/usuarios/# FILIPE MATHEUS SILVA CAVALCANTI #/cep.zip', mode = 'wb')"
+          Rscript -e "download.file('ftp://ftp.datasus.gov.br/cnes/CEP_BRASIL.ZIP', '/mnt/f/cep.zip', mode = 'wb')"
