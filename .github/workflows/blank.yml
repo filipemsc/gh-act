@@ -13,7 +13,8 @@ jobs:
         uses: r-lib/actions/setup-r@v2
 
       - name: Mount Z
-        run: sudo mount -t drvfs Z: /mnt/z
+        run: |
+          sudo mount -t drvfs Z: /mnt/z
         
       - name: Run R script
         run: |
